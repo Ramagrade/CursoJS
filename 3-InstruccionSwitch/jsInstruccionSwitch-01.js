@@ -1,7 +1,24 @@
-function mostrar()
-{
-	
-	
+function mostrar() {
+  let mes;
+  mes = document.getElementById("txtMes").value;
 
+  switch (mes) {
+    case "Enero":
+      alert("que comiences bien el año");
+      break;
+    case "Marzo":
+      alert("a clases");
+      break;
+    case "Julio":
+      alert("se vienen las vacaciones");
+      break;
+    case "Diciembre":
+      alert("ese mes no tiene respuesta");
+      break;
+    default:
+      alert("ese mes no tiene respuesta");
+      break;
+  }
 
+  
 }
